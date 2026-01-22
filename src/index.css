@@ -23,10 +23,10 @@
   height: 8px;
 }
 .tray-scroll::-webkit-scrollbar-track {
-  background: var(--color-soft-gray);
+  background: #EAEAEA;
   border-radius: 4px;
 }
 .tray-scroll::-webkit-scrollbar-thumb {
-  background: var(--color-bubbly-teal);
+  background: #00C2A8;
   border-radius: 4px;
 }
