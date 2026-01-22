@@ -5,8 +5,14 @@ import { HybridDisplay } from './HybridDisplay';
 import { GuessingTray } from './GuessingTray';
 import { DeMixer } from './DeMixer';
 
+import { Sun, Moon } from 'lucide-react';
+
 export const GameContainer = () => {
-  const { isGameWon, startGame, currentHybrid, score, level, maxLevels, language, setLanguage } = useGameStore();
+  const { isGameWon, startGame, currentHybrid, score, level, maxLevels, language, setLanguage, theme, setTheme } = useGameStore();
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', theme === 'dark');
+  }, [theme]);
 
   useEffect(() => {
       if (!currentHybrid) {
@@ -58,15 +64,22 @@ export const GameContainer = () => {
         </div>
 
         <div className="flex gap-2 sm:gap-4 items-center">
+            <button
+                onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
+                className="bg-white dark:bg-dark-card border border-gray-300 dark:border-dark-border p-2 rounded-xl text-xl sm:text-2xl hover:bg-soft-gray dark:hover:bg-gray-600 transition-colors"
+                title="Toggle Theme"
+            >
+                {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
+            </button>
             <button 
                 onClick={() => setLanguage(language === 'en' ? 'fr' : 'en')}
-                className="bg-white border border-gray-300 px-3 py-2 rounded-xl text-xl sm:text-2xl hover:bg-soft-gray transition-colors"
+                className="bg-white dark:bg-dark-card border border-gray-300 dark:border-dark-border px-3 py-2 rounded-xl text-xl sm:text-2xl hover:bg-soft-gray dark:hover:bg-gray-600 transition-colors"
                 title="Switch Language"
             >
                 {language === 'en' ? '🇫🇷' : '🇬🇧'}
             </button>
 
-            <div className="bg-white px-3 py-2 rounded-xl border border-gray-300 font-bold hidden sm:block text-sm">
+            <div className="bg-white dark:bg-dark-card px-3 py-2 rounded-xl border border-gray-300 dark:border-dark-border font-bold hidden sm:block text-sm">
                 {ui.level} {level}/{maxLevels}
             </div>
             <div className="bg-bubbly-teal text-white px-3 sm:px-4 py-2 rounded-xl font-bold shadow-lg text-sm sm:text-base">
@@ -74,7 +87,7 @@ export const GameContainer = () => {
             </div>
             <button 
                 onClick={startGame}
-                className="bg-white hover:bg-soft-gray px-3 sm:px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-colors border border-gray-300"
+                className="bg-white dark:bg-dark-card hover:bg-soft-gray dark:hover:bg-gray-600 px-3 sm:px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-colors border border-gray-300 dark:border-dark-border"
             >
                 {ui.reset}
             </button>

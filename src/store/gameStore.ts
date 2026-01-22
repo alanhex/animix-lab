@@ -3,6 +3,7 @@ import hybridsDataEn from './hybridsData.json';
 import hybridsDataFr from './hybridsData_fr.json';
 
 type Language = 'en' | 'fr';
+type Theme = 'light' | 'dark';
 
 export type Animal = {
   id: string;
@@ -118,6 +119,7 @@ export const UI_TEXT = {
 
 interface GameState {
   language: Language;
+  theme: Theme;
   score: number;
   level: number;
   maxLevels: number;
@@ -131,6 +133,7 @@ interface GameState {
   failedHybridIds: string[];
 
   setLanguage: (lang: Language) => void;
+  setTheme: (theme: Theme) => void;
   startGame: () => void;
   addAnimalToSlot: (animal: Animal) => void;
   removeAnimalFromSlot: (index: number) => void;
@@ -145,8 +148,14 @@ const getInitialLanguage = (): Language => {
   return (saved === 'en' || saved === 'fr') ? saved : 'fr';
 };
 
+const getInitialTheme = (): Theme => {
+  const saved = localStorage.getItem('animix_theme');
+  return (saved === 'light' || saved === 'dark') ? saved : 'light';
+};
+
 export const useGameStore = create<GameState>((set, get) => ({
   language: getInitialLanguage(),
+  theme: getInitialTheme(),
   score: 0,
   level: 1,
   maxLevels: 5,
@@ -160,6 +169,11 @@ export const useGameStore = create<GameState>((set, get) => ({
   setLanguage: (lang) => {
     localStorage.setItem('animix_lang', lang);
     set({ language: lang });
+  },
+
+  setTheme: (theme) => {
+    localStorage.setItem('animix_theme', theme);
+    set({ theme });
   },
 
   startGame: () => {

@@ -18,7 +18,7 @@ export const HybridDisplay = () => {
   const ui = UI_TEXT[language];
 
   return (
-    <div className="relative w-auto max-w-3xl bg-white/50 rounded-2xl border-[6px] border-bubbly-teal/50 overflow-hidden shadow-xl group min-h-[200px] mx-auto">
+    <div className="relative w-auto max-w-3xl bg-white/50 dark:bg-dark-card/50 rounded-2xl border-[6px] border-bubbly-teal/50 dark:border-bubbly-teal/70 overflow-hidden shadow-xl group min-h-[200px] mx-auto">
       <div className="absolute top-0 left-0 w-8 md:w-16 h-8 md:h-16 border-t-8 border-l-8 border-zesty-orange rounded-tl-lg z-20 pointer-events-none opacity-80" />
       <div className="absolute top-0 right-0 w-8 md:w-16 h-8 md:h-16 border-t-8 border-r-8 border-zesty-orange rounded-tr-lg z-20 pointer-events-none opacity-80" />
       <div className="absolute bottom-0 left-0 w-8 md:w-16 h-8 md:h-16 border-b-8 border-l-8 border-zesty-orange rounded-bl-lg z-20 pointer-events-none opacity-80" />
@@ -36,14 +36,14 @@ export const HybridDisplay = () => {
             onError={() => replaceCurrentHybrid()}
             />
          ) : (
-             <div className="text-text-dark-blue animate-pulse py-20">{ui.loading} {hybrid.name}...</div>
+             <div className="text-text-dark-blue dark:text-dark-text animate-pulse py-20">{ui.loading} {hybrid.name}...</div>
          )}
       </div>
 
       {(imageSrc || true) && hybrid.hotspots.map((spot) => (
         <motion.button
           key={spot.id}
-          className="absolute w-12 h-12 bg-zesty-orange rounded-full border-4 border-white shadow-lg cursor-pointer z-10 flex items-center justify-center text-white font-bold text-xl hover:scale-110 active:scale-95"
+          className="absolute w-12 h-12 bg-zesty-orange rounded-full border-4 border-white dark:border-dark-card shadow-lg cursor-pointer z-10 flex items-center justify-center text-white font-bold text-xl hover:scale-110 active:scale-95"
           style={{ left: spot.x, top: spot.y }}
           whileHover={{ rotate: 15 }}
           onClick={() => setActiveNote(spot.note)}
@@ -58,7 +58,7 @@ export const HybridDisplay = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 20 }}
-            className="absolute bottom-4 left-4 right-4 bg-white/95 text-text-dark-blue p-6 rounded-2xl shadow-xl border-l-8 border-bubbly-teal z-20 max-h-[80%] overflow-y-auto"
+            className="absolute bottom-4 left-4 right-4 bg-white/95 dark:bg-dark-card/95 text-text-dark-blue dark:text-dark-text p-6 rounded-2xl shadow-xl border-l-8 border-bubbly-teal z-20 max-h-[80%] overflow-y-auto"
           >
             <div className="flex justify-between items-start">
               <div>
@@ -67,7 +67,7 @@ export const HybridDisplay = () => {
               </div>
               <button 
                 onClick={() => setActiveNote(null)}
-                className="bg-gray-200 hover:bg-gray-300 rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold"
+                className="bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold"
               >
                 ×
               </button>

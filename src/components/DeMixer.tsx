@@ -30,7 +30,7 @@ export const DeMixer = () => {
             <motion.div 
                 initial={{ scale: 0.8, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
-                className="relative bg-white p-8 rounded-3xl text-text-dark-blue text-center border-8 border-zesty-orange max-w-md w-full shadow-2xl"
+                className="relative bg-white dark:bg-dark-card p-8 rounded-3xl text-text-dark-blue dark:text-dark-text text-center border-8 border-zesty-orange max-w-md w-full shadow-2xl"
             >
                 <h2 className="text-4xl font-bold text-bubbly-teal mb-4">{ui.missionComplete}</h2>
                 <p className="text-xl mb-6">{ui.allIdentified}</p>
@@ -61,8 +61,8 @@ export const DeMixer = () => {
             className={clsx(
               "w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full border-4 border-dashed flex items-center justify-center transition-all duration-300 relative",
               animal 
-                ? "bg-white border-zesty-orange shadow-[0_0_20px_#FF6B00] cursor-pointer hover:bg-red-50 hover:border-red-400 group" 
-                : "bg-black/10 border-gray-400"
+                ? "bg-white dark:bg-dark-card border-zesty-orange shadow-[0_0_20px_#FF6B00] cursor-pointer hover:bg-red-50 dark:hover:bg-red-900/50 hover:border-red-400 group" 
+                : "bg-black/10 dark:bg-dark-card border-gray-400 dark:border-dark-border"
             )}
           >
             {animal ? (
@@ -79,7 +79,7 @@ export const DeMixer = () => {
                 </div>
               </>
             ) : (
-              <span className="text-gray-400 text-3xl sm:text-4xl font-bold">+</span>
+              <span className="text-gray-400 dark:text-gray-500 text-3xl sm:text-4xl font-bold">+</span>
             )}
           </div>
         ))}
@@ -91,7 +91,7 @@ export const DeMixer = () => {
             <motion.div
             initial={{ opacity: 0, scale: 0.5, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
-            className="relative bg-white text-text-dark-blue p-2 sm:p-6 rounded-2xl shadow-2xl border-4 border-zesty-orange text-center max-w-md w-full max-h-[90vh] overflow-y-auto"
+            className="relative bg-white dark:bg-dark-card text-text-dark-blue dark:text-dark-text p-2 sm:p-6 rounded-2xl shadow-2xl border-4 border-zesty-orange text-center max-w-md w-full max-h-[90vh] overflow-y-auto"
             >
             {imageSrc && (
                 <div className="w-full mb-2 flex items-center justify-center">
@@ -101,7 +101,7 @@ export const DeMixer = () => {
             <h2 className="text-xl sm:text-3xl font-bold text-bubbly-teal mb-2">
                 IT'S A {localizedHybrid.name.toUpperCase()}!
             </h2>
-            <div className="bg-orange-100 p-2 sm:p-4 rounded-xl border-l-4 border-orange-400 text-left mb-4 text-sm sm:text-base">
+            <div className="bg-orange-100 dark:bg-orange-900/50 p-2 sm:p-4 rounded-xl border-l-4 border-orange-400 text-left mb-4 text-sm sm:text-base">
                 <span className="font-bold block mb-1">{ui.funFact}</span>
                 {localizedHybrid.fact}
             </div>
