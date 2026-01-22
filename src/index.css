@@ -2,12 +2,12 @@
 @import "tailwindcss";
 
 @theme {
-  --color-cyber-green: #39FF14;
-  --color-cyber-purple: #BD00FF;
-  --color-lab-dark: #0f0c29;
-  --color-lab-mid: #302b63;
-  --color-lab-light: #24243e;
-  
+  --color-zesty-orange: #FF6B00;
+  --color-bubbly-teal: #00C2A8;
+  --color-background-cream: #FDFDFA;
+  --color-text-dark-blue: #2A3D45;
+  --color-soft-gray: #EAEAEA;
+
   --font-sans: "Fredoka One", cursive;
   
   --animate-bounce-slow: bounce 3s infinite;
@@ -15,8 +15,7 @@
 
 @layer base {
   body {
-    @apply bg-lab-dark text-white font-sans overflow-hidden select-none;
-    background-image: radial-gradient(circle at 50% 50%, #302b63 0%, #0f0c29 100%);
+    @apply bg-background-cream text-text-dark-blue font-sans overflow-hidden select-none;
   }
 }
 
@@ -24,10 +23,10 @@
   height: 8px;
 }
 .tray-scroll::-webkit-scrollbar-track {
-  background: rgba(0,0,0,0.2);
+  background: var(--color-soft-gray);
   border-radius: 4px;
 }
 .tray-scroll::-webkit-scrollbar-thumb {
-  background: #BD00FF;
+  background: var(--color-bubbly-teal);
   border-radius: 4px;
 }

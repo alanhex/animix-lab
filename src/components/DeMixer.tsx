@@ -30,13 +30,13 @@ export const DeMixer = () => {
             <motion.div 
                 initial={{ scale: 0.8, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
-                className="relative bg-white p-8 rounded-3xl text-lab-dark text-center border-8 border-cyber-green max-w-md w-full shadow-2xl"
+                className="relative bg-white p-8 rounded-3xl text-text-dark-blue text-center border-8 border-zesty-orange max-w-md w-full shadow-2xl"
             >
-                <h2 className="text-4xl font-bold text-cyber-purple mb-4">{ui.missionComplete}</h2>
+                <h2 className="text-4xl font-bold text-bubbly-teal mb-4">{ui.missionComplete}</h2>
                 <p className="text-xl mb-6">{ui.allIdentified}</p>
                 <button 
                     onClick={startGame}
-                    className="bg-cyber-purple text-white px-8 py-4 rounded-full text-2xl font-bold shadow-lg hover:bg-purple-600 transition-transform hover:scale-105"
+                    className="bg-bubbly-teal text-white px-8 py-4 rounded-full text-2xl font-bold shadow-lg hover:bg-teal-600 transition-transform hover:scale-105"
                 >
                     {ui.playAgain}
                 </button>
@@ -61,8 +61,8 @@ export const DeMixer = () => {
             className={clsx(
               "w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full border-4 border-dashed flex items-center justify-center transition-all duration-300 relative",
               animal 
-                ? "bg-white border-cyber-green shadow-[0_0_20px_#39FF14] cursor-pointer hover:bg-red-50 hover:border-red-400 group" 
-                : "bg-black/20 border-white/30 backdrop-blur-sm"
+                ? "bg-white border-zesty-orange shadow-[0_0_20px_#FF6B00] cursor-pointer hover:bg-red-50 hover:border-red-400 group" 
+                : "bg-black/10 border-gray-400"
             )}
           >
             {animal ? (
@@ -79,7 +79,7 @@ export const DeMixer = () => {
                 </div>
               </>
             ) : (
-              <span className="text-white/30 text-3xl sm:text-4xl font-bold">+</span>
+              <span className="text-gray-400 text-3xl sm:text-4xl font-bold">+</span>
             )}
           </div>
         ))}
@@ -91,24 +91,24 @@ export const DeMixer = () => {
             <motion.div
             initial={{ opacity: 0, scale: 0.5, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
-            className="relative bg-white text-lab-dark p-2 sm:p-6 rounded-2xl shadow-2xl border-4 border-cyber-green text-center max-w-md w-full max-h-[90vh] overflow-y-auto"
+            className="relative bg-white text-text-dark-blue p-2 sm:p-6 rounded-2xl shadow-2xl border-4 border-zesty-orange text-center max-w-md w-full max-h-[90vh] overflow-y-auto"
             >
             {imageSrc && (
                 <div className="w-full mb-2 flex items-center justify-center">
                     <img src={imageSrc} alt={localizedHybrid.name} className="w-full h-auto object-contain drop-shadow-md" />
                 </div>
             )}
-            <h2 className="text-xl sm:text-3xl font-bold text-cyber-purple mb-2">
+            <h2 className="text-xl sm:text-3xl font-bold text-bubbly-teal mb-2">
                 IT'S A {localizedHybrid.name.toUpperCase()}!
             </h2>
-            <div className="bg-yellow-100 p-2 sm:p-4 rounded-xl border-l-4 border-yellow-400 text-left mb-4 text-sm sm:text-base">
+            <div className="bg-orange-100 p-2 sm:p-4 rounded-xl border-l-4 border-orange-400 text-left mb-4 text-sm sm:text-base">
                 <span className="font-bold block mb-1">{ui.funFact}</span>
                 {localizedHybrid.fact}
             </div>
             
             <button 
                 onClick={nextLevel}
-                className="w-full bg-cyber-green text-lab-dark py-2 sm:py-3 rounded-xl text-lg sm:text-xl font-bold hover:brightness-110 active:scale-95 transition-all shadow-md"
+                className="w-full bg-zesty-orange text-white py-2 sm:py-3 rounded-xl text-lg sm:text-xl font-bold hover:brightness-110 active:scale-95 transition-all shadow-md"
             >
                 {ui.nextLevel}
             </button>
