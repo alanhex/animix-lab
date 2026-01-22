@@ -6,7 +6,7 @@ const images = import.meta.glob('../assets/*.png', { eager: true, query: '?url',
 
 export const HybridDisplay = () => {
   const [activeNote, setActiveNote] = useState<string | null>(null);
-  const { currentHybrid, getLocalizedHybrid, language } = useGameStore();
+  const { currentHybrid, getLocalizedHybrid, language, replaceCurrentHybrid } = useGameStore();
 
   if (!currentHybrid) return null;
 
@@ -16,10 +16,6 @@ export const HybridDisplay = () => {
   const imagePath = `../assets/${hybrid.id}.png`;
   const imageSrc = (images[imagePath] as string) || '';
   const ui = UI_TEXT[language];
-
-  const fallbackEmojis = hybrid.components.map(id => 
-    ANIMALS.find(a => a.id === id)?.icon || '?'
-  ).join('');
 
   return (
     <div className="relative w-auto max-w-3xl bg-lab-dark rounded-2xl border-[6px] border-cyber-purple/50 overflow-hidden shadow-[0_0_50px_rgba(189,0,255,0.4)] group min-h-[200px] mx-auto">
@@ -37,21 +33,11 @@ export const HybridDisplay = () => {
             src={imageSrc} 
             alt={hybrid.name} 
             className="w-auto h-auto max-h-[40vh] md:max-h-[50vh] block relative z-10 drop-shadow-2xl"
-            onError={(e) => {
-                e.currentTarget.style.display = 'none';
-                e.currentTarget.parentElement?.classList.add('fallback-mode');
-            }}
+            onError={() => replaceCurrentHybrid()}
             />
          ) : (
-             <div className="text-white flex flex-col items-center gap-2">
-                 <div className="text-6xl animate-pulse">{fallbackEmojis}</div>
-                 <div className="text-sm font-mono opacity-70">Image offline - Use DNA Scanners</div>
-             </div>
+             <div className="text-white animate-pulse py-20">{ui.loading} {hybrid.name}...</div>
          )}
-         
-         <div className="hidden fallback-display">
-             <div className="text-6xl animate-pulse">{fallbackEmojis}</div>
-         </div>
       </div>
 
       {(imageSrc || true) && hybrid.hotspots.map((spot) => (

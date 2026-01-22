@@ -128,6 +128,7 @@ interface GameState {
   slots: (Animal | null)[];
   isGameWon: boolean;
   isGameFinished: boolean;
+  failedHybridIds: string[];
 
   setLanguage: (lang: Language) => void;
   startGame: () => void;
@@ -135,6 +136,7 @@ interface GameState {
   removeAnimalFromSlot: (index: number) => void;
   nextLevel: () => void;
   resetLevel: () => void;
+  replaceCurrentHybrid: () => void;
   getLocalizedHybrid: (hybrid: Hybrid | null) => Hybrid | null;
 }
 
@@ -153,6 +155,7 @@ export const useGameStore = create<GameState>((set, get) => ({
   slots: [null, null, null],
   isGameWon: false,
   isGameFinished: false,
+  failedHybridIds: [],
 
   setLanguage: (lang) => {
     localStorage.setItem('animix_lang', lang);
@@ -234,6 +237,36 @@ export const useGameStore = create<GameState>((set, get) => ({
   },
 
   resetLevel: () => set({ slots: [null, null, null], isGameWon: false }),
+
+  replaceCurrentHybrid: () => {
+      const { hybridQueue, currentHybrid, failedHybridIds } = get();
+      if (!currentHybrid) return;
+
+      const newFailed = [...failedHybridIds, currentHybrid.id];
+      const usedIds = new Set(hybridQueue.map(h => h.id));
+      
+      const candidates = hybridsDataEn.filter(h => 
+          !usedIds.has(h.id) && !newFailed.includes(h.id)
+      );
+      
+      if (candidates.length === 0) {
+          console.warn("No more valid hybrids available.");
+          set({ failedHybridIds: newFailed }); 
+          return;
+      }
+
+      const randomReplacement = candidates[Math.floor(Math.random() * candidates.length)];
+      
+      const newQueue = hybridQueue.map(h => h.id === currentHybrid.id ? randomReplacement : h);
+      
+      set({
+          failedHybridIds: newFailed,
+          hybridQueue: newQueue,
+          currentHybrid: randomReplacement,
+          slots: [null, null, null],
+          isGameWon: false
+      });
+  },
 
   getLocalizedHybrid: (hybrid) => {
       if (!hybrid) return null;
