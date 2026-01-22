@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import { useGameStore, ANIMALS, UI_TEXT } from '../store/gameStore';
 import clsx from 'clsx';
 
+const images = import.meta.glob('../assets/*.png', { eager: true, query: '?url', import: 'default' });
+
 export const DeMixer = () => {
   const { slots, addAnimalToSlot, removeAnimalFromSlot, isGameWon, isGameFinished, nextLevel, startGame, currentHybrid, getLocalizedHybrid, language } = useGameStore();
   const ui = UI_TEXT[language];
@@ -44,6 +46,8 @@ export const DeMixer = () => {
   }
 
   const localizedHybrid = getLocalizedHybrid(currentHybrid);
+  const imagePath = localizedHybrid ? `../assets/${localizedHybrid.id}.png` : '';
+  const imageSrc = (images[imagePath] as string) || '';
 
   return (
     <div className="flex flex-col items-center gap-4 my-4 w-full max-w-3xl">
@@ -55,7 +59,7 @@ export const DeMixer = () => {
             onDrop={handleDrop}
             onClick={() => animal && removeAnimalFromSlot(index)}
             className={clsx(
-              "w-24 h-24 md:w-32 md:h-32 rounded-full border-4 border-dashed flex items-center justify-center transition-all duration-300 relative",
+              "w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 rounded-full border-4 border-dashed flex items-center justify-center transition-all duration-300 relative",
               animal 
                 ? "bg-white border-cyber-green shadow-[0_0_20px_#39FF14] cursor-pointer hover:bg-red-50 hover:border-red-400 group" 
                 : "bg-black/20 border-white/30 backdrop-blur-sm"
@@ -66,7 +70,7 @@ export const DeMixer = () => {
                 <motion.span 
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
-                  className="text-5xl md:text-6xl select-none"
+                  className="text-4xl sm:text-5xl md:text-6xl select-none"
                 >
                   {animal.icon}
                 </motion.span>
@@ -75,7 +79,7 @@ export const DeMixer = () => {
                 </div>
               </>
             ) : (
-              <span className="text-white/30 text-4xl font-bold">+</span>
+              <span className="text-white/30 text-3xl sm:text-4xl font-bold">+</span>
             )}
           </div>
         ))}
@@ -87,19 +91,24 @@ export const DeMixer = () => {
             <motion.div
             initial={{ opacity: 0, scale: 0.5, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
-            className="relative bg-white text-lab-dark p-6 rounded-2xl shadow-2xl border-4 border-cyber-green text-center max-w-md w-full"
+            className="relative bg-white text-lab-dark p-2 sm:p-6 rounded-2xl shadow-2xl border-4 border-cyber-green text-center max-w-md w-full max-h-[90vh] overflow-y-auto"
             >
-            <h2 className="text-3xl font-bold text-cyber-purple mb-2">
+            {imageSrc && (
+                <div className="w-full mb-2 flex items-center justify-center">
+                    <img src={imageSrc} alt={localizedHybrid.name} className="w-full h-auto object-contain drop-shadow-md" />
+                </div>
+            )}
+            <h2 className="text-xl sm:text-3xl font-bold text-cyber-purple mb-2">
                 IT'S A {localizedHybrid.name.toUpperCase()}!
             </h2>
-            <div className="bg-yellow-100 p-4 rounded-xl border-l-4 border-yellow-400 text-left mb-4">
+            <div className="bg-yellow-100 p-2 sm:p-4 rounded-xl border-l-4 border-yellow-400 text-left mb-4 text-sm sm:text-base">
                 <span className="font-bold block mb-1">{ui.funFact}</span>
                 {localizedHybrid.fact}
             </div>
             
             <button 
                 onClick={nextLevel}
-                className="w-full bg-cyber-green text-lab-dark py-3 rounded-xl text-xl font-bold hover:brightness-110 active:scale-95 transition-all shadow-md"
+                className="w-full bg-cyber-green text-lab-dark py-2 sm:py-3 rounded-xl text-lg sm:text-xl font-bold hover:brightness-110 active:scale-95 transition-all shadow-md"
             >
                 {ui.nextLevel}
             </button>

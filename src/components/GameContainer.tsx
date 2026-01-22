@@ -57,24 +57,24 @@ export const GameContainer = () => {
            </h1>
         </div>
 
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-2 sm:gap-4 items-center">
             <button 
                 onClick={() => setLanguage(language === 'en' ? 'fr' : 'en')}
-                className="bg-transparent border border-white/30 px-3 py-2 rounded-xl text-2xl hover:bg-white/10 transition-colors"
+                className="bg-transparent border border-white/30 px-3 py-2 rounded-xl text-xl sm:text-2xl hover:bg-white/10 transition-colors"
                 title="Switch Language"
             >
                 {language === 'en' ? '🇫🇷' : '🇬🇧'}
             </button>
 
-            <div className="bg-white/10 px-4 py-2 rounded-xl backdrop-blur-md border border-white/20 font-bold hidden sm:block">
+            <div className="bg-white/10 px-3 py-2 rounded-xl backdrop-blur-md border border-white/20 font-bold hidden sm:block text-sm">
                 {ui.level} {level}/{maxLevels}
             </div>
-            <div className="bg-cyber-purple px-4 py-2 rounded-xl font-bold shadow-lg border border-white/20">
+            <div className="bg-cyber-purple px-3 sm:px-4 py-2 rounded-xl font-bold shadow-lg border border-white/20 text-sm sm:text-base">
                 {ui.score}: {score}
             </div>
             <button 
                 onClick={startGame}
-                className="bg-white/10 hover:bg-white/20 px-4 py-2 rounded-xl text-sm font-bold backdrop-blur-sm transition-colors border border-white/20"
+                className="bg-white/10 hover:bg-white/20 px-3 sm:px-4 py-2 rounded-xl text-xs sm:text-sm font-bold backdrop-blur-sm transition-colors border border-white/20"
             >
                 {ui.reset}
             </button>
@@ -86,9 +86,11 @@ export const GameContainer = () => {
         <DeMixer />
       </main>
 
-      <div className="w-full z-20">
-        <GuessingTray />
-      </div>
+      {!isGameWon && (
+        <div className="w-full z-20">
+          <GuessingTray />
+        </div>
+      )}
 
       <div className="absolute top-20 left-10 w-64 h-64 bg-cyber-purple/20 rounded-full blur-[100px] pointer-events-none" />
       <div className="absolute bottom-40 right-10 w-80 h-80 bg-cyber-green/10 rounded-full blur-[120px] pointer-events-none" />
