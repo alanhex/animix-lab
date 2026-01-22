@@ -1,0 +1,838 @@
+[
+  {
+    "id": "hybrid_01",
+    "name": "Skibidi Elephant Rizzler",
+    "hotspots": [
+      {
+        "id": "mane",
+        "note": "Cette crinière majestueuse aide à attirer les zèbres !"
+      },
+      {
+        "id": "trunk",
+        "note": "Une trompe rayée pour un camouflage supplémentaire dans la savane."
+      },
+      {
+        "id": "tusks",
+        "note": "Des défenses en ivoire avec des rayures noires, parfaites pour déterrer de délicieuses racines."
+      }
+    ],
+    "fact": "Les éléphants peuvent communiquer par des vibrations dans le sol qu'ils ressentent dans leurs pieds!"
+  },
+  {
+    "id": "hybrid_02",
+    "name": "Ohio Penguin Tax",
+    "hotspots": [
+      {
+        "id": "legs",
+        "note": "Des jambes courtes parfaites pour la glace et les plages de sable !"
+      },
+      {
+        "id": "scales",
+        "note": "Ces écailles sont super glissantes pour échapper aux prédateurs."
+      },
+      {
+        "id": "feathers",
+        "note": "Des plumes colorées aident le Manchotcodile à se fondre dans le feuillage de la jungle."
+      }
+    ],
+    "fact": "Les perroquets peuvent imiter la parole humaine parce que leur cerveau a une structure similaire à la nôtre !"
+  },
+  {
+    "id": "hybrid_03",
+    "name": "Sigma Long-Neck Monkephant",
+    "hotspots": [
+      {
+        "id": "neck",
+        "note": "Un cou extra long pour atteindre les bananes les plus savoureuses."
+      },
+      {
+        "id": "ears",
+        "note": "De grandes oreilles peuvent chasser les cyber-mouches embêtantes."
+      },
+      {
+        "id": "tail",
+        "note": "Une queue préhensile pour se balancer dans la cyber-jungle."
+      }
+    ],
+    "fact": "Les taches d'une girafe sont comme les empreintes digitales humaines - il n'y a pas deux girafes avec le même motif !"
+  },
+  {
+    "id": "hybrid_04",
+    "name": "Fanum Tax Giraffe Mogger",
+    "hotspots": [
+      {
+        "id": "stripes",
+        "note": "Les rayures aident au camouflage dans les hautes herbes."
+      },
+      {
+        "id": "spots",
+        "note": "Les taches sur le cou aident le Tigrirafeau à se fondre dans la canopée."
+      },
+      {
+        "id": "body",
+        "note": "Un grand corps d'hippopotame aide l'animal à rester au frais dans la chaleur de la jungle."
+      }
+    ],
+    "fact": "Les tigres ont des rayures uniques à chaque individu, tout comme les empreintes digitales humaines !"
+  },
+  {
+    "id": "hybrid_05",
+    "name": "Gyatt Parrot Ohio",
+    "hotspots": [
+      {
+        "id": "feathers",
+        "note": "Des plumes vibrantes aident à attirer l'attention !"
+      },
+      {
+        "id": "skin",
+        "note": "Une peau épaisse protège contre les cyber-insectes."
+      },
+      {
+        "id": "expression",
+        "note": "Une expression espiègle, toujours prête à quelque chose."
+      }
+    ],
+    "fact": "Les singes utilisent une grande variété d'expressions faciales pour communiquer, tout comme les humains !"
+  },
+  {
+    "id": "hybrid_06",
+    "name": "Skibidi Zebra Cooked",
+    "hotspots": [
+      {
+        "id": "scales",
+        "note": "Des écailles résistantes le protègent des cyber-prédateurs."
+      },
+      {
+        "id": "stripes",
+        "note": "Les rayures brisent sa silhouette dans les hautes herbes."
+      },
+      {
+        "id": "neck",
+        "note": "Un long cou l'aide à repérer le danger de loin."
+      }
+    ],
+    "fact": "On pense que les rayures d'un zèbre l'aident à rester au frais et à éviter les insectes piqueurs !"
+  },
+  {
+    "id": "hybrid_07",
+    "name": "Grimace Shake Ohio",
+    "hotspots": [
+      {
+        "id": "body",
+        "note": "Un grand corps l'aide à rester à flot."
+      },
+      {
+        "id": "feathers",
+        "note": "Des plumes brillantes signalent sa présence."
+      },
+      {
+        "id": "antics",
+        "note": "Toujours prêt à faire des farces stupides."
+      }
+    ],
+    "fact": "Les hippopotames sécrètent un liquide huileux rouge, parfois appelé 'sueur de sang', qui agit comme écran solaire et antibiotique !"
+  },
+  {
+    "id": "hybrid_08",
+    "name": "Livvy Dunne Tiger Tax",
+    "hotspots": [
+      {
+        "id": "tusks",
+        "note": "Les défenses en ivoire aident à creuser pour trouver des racines."
+      },
+      {
+        "id": "stripes",
+        "note": "Les rayures aident au camouflage dans la jungle ombragée."
+      },
+      {
+        "id": "waddle",
+        "note": "Une démarche dandinante amusante le rend attachant."
+      }
+    ],
+    "fact": "Les pingouins peuvent boire de l'eau salée car ils ont une glande spéciale qui filtre le sel de leur circulation sanguine !"
+  },
+  {
+    "id": "hybrid_09",
+    "name": "Baby Gronk Croc Rizz",
+    "hotspots": [
+      {
+        "id": "mane",
+        "note": "Une petite crinière autour de sa tête."
+      },
+      {
+        "id": "agility",
+        "note": "Des capacités d'escalade incroyables."
+      },
+      {
+        "id": "hide",
+        "note": "Une peau épaisse, comme une armure."
+      }
+    ],
+    "fact": "Les crocodiles peuvent retenir leur souffle pendant plus d'une heure !"
+  },
+  {
+    "id": "hybrid_10",
+    "name": "Glazing Elephant Ohio",
+    "hotspots": [
+      {
+        "id": "stripes",
+        "note": "Des rayures éblouissantes offrent un excellent camouflage."
+      },
+      {
+        "id": "plumage",
+        "note": "Des plumes colorées attirent les partenaires."
+      },
+      {
+        "id": "trunk",
+        "note": "Une trompe très forte et flexible."
+      }
+    ],
+    "fact": "Les perroquets ont la capacité d'imiter la parole humaine !"
+  },
+  {
+    "id": "hybrid_11",
+    "name": "Ohio Long-Necked Lion",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Son rugissement ressemble étrangement à un klaxon!"
+      },
+      {
+        "id": "spot_2",
+        "note": "Des rayures, mais en mode plume."
+      },
+      {
+        "id": "spot_3",
+        "note": "Un cou si long qu'il a besoin de son propre système météo."
+      }
+    ],
+    "fact": "Les girafes ont le même nombre d'os dans le cou que les humains : seulement sept !"
+  },
+  {
+    "id": "hybrid_12",
+    "name": "Skibidi Ohio Elephant",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "A une trompe qui adore se balancer aux arbres."
+      },
+      {
+        "id": "spot_2",
+        "note": "Écailles et bananes: un régime discutable."
+      },
+      {
+        "id": "spot_3",
+        "note": "Oublie toujours où il enterre ses cacahuètes."
+      }
+    ],
+    "fact": "Les singes utilisent des outils pour obtenir de la nourriture !"
+  },
+  {
+    "id": "hybrid_13",
+    "name": "Fanum Tax Zebra W",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Quelle rayure est laquelle? Personne ne sait!"
+      },
+      {
+        "id": "spot_2",
+        "note": "Peut voir au-dessus de toute la cyber-jungle."
+      },
+      {
+        "id": "spot_3",
+        "note": "Une crinière parfaitement rayée."
+      }
+    ],
+    "fact": "Les rayures d'un tigre sont comme des empreintes digitales, il n'y a pas deux tigres avec le même motif."
+  },
+  {
+    "id": "hybrid_14",
+    "name": "Grimace Shake Ohio Tax",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Adore imiter les autres animaux... mal."
+      },
+      {
+        "id": "spot_2",
+        "note": "Une agilité surprenante pour une créature ressemblant à un hippopotame."
+      },
+      {
+        "id": "spot_3",
+        "note": "Préfère les bains de boue colorés."
+      }
+    ],
+    "fact": "Les perroquets peuvent vivre plus de 80 ans !"
+  },
+  {
+    "id": "hybrid_15",
+    "name": "Skibidi Lion Tax",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Trompe adaptée pour attraper du poisson."
+      },
+      {
+        "id": "spot_2",
+        "note": "Les waddle-rugissements sont son appel unique."
+      },
+      {
+        "id": "spot_3",
+        "note": "Crinière de plumes? C'est nouveau!"
+      }
+    ],
+    "fact": "Les lions sont les seuls félins à vivre en groupes sociaux, appelés fiertés."
+  },
+  {
+    "id": "hybrid_16",
+    "name": "Rizzler Giraffe Mogging",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Peut repérer une proie à des kilomètres de distance."
+      },
+      {
+        "id": "spot_2",
+        "note": "Les rayures l'aident à se cacher dans les herbes les plus hautes."
+      },
+      {
+        "id": "spot_3",
+        "note": "S'approche furtivement de sa proie avec une longue queue bruissante."
+      }
+    ],
+    "fact": "Les crocodiles ont une force de morsure de plus de 3 700 PSI, la plus forte de tous les animaux !"
+  },
+  {
+    "id": "hybrid_17",
+    "name": "Gyatt Hippo Tax",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Ses rayures changent de couleur en fonction de son humeur."
+      },
+      {
+        "id": "spot_2",
+        "note": "Ses cris sont étonnamment forts."
+      },
+      {
+        "id": "spot_3",
+        "note": "Adore éclabousser dans les flaques d'eau, faisant un énorme gâchis."
+      }
+    ],
+    "fact": "Les zèbres ont une excellente vue et une ouïe excellente, ce qui les aide à détecter les prédateurs !"
+  },
+  {
+    "id": "hybrid_18",
+    "name": "Skibidi Elephant Mogger",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Utilise sa trompe pour des acrobaties incroyables."
+      },
+      {
+        "id": "spot_2",
+        "note": "Sa nature ludique cache un rugissement dangereux."
+      },
+      {
+        "id": "spot_3",
+        "note": "Se balance sur des vignes avec une grâce surprenante."
+      }
+    ],
+    "fact": "Les tigres sont les plus grandes espèces de chats au monde !"
+  },
+  {
+    "id": "hybrid_19",
+    "name": "L Ohio Rizzler",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Un singe rugissant avec une queue écailleuse."
+      },
+      {
+        "id": "spot_2",
+        "note": "Préfère bronzer et se balancer aux arbres."
+      },
+      {
+        "id": "spot_3",
+        "note": "Toujours prêt pour un plongeon amusant ou une collation sournoise."
+      }
+    ],
+    "fact": "Un crocodile peut remplacer chacune de ses dents jusqu'à 50 fois au cours de sa vie !"
+  },
+  {
+    "id": "hybrid_20",
+    "name": "Grimace Shake Zebra W",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Aime se dandiner et se vautrer."
+      },
+      {
+        "id": "spot_2",
+        "note": "Ses rayures sont étonnamment imperméables."
+      },
+      {
+        "id": "spot_3",
+        "note": "Un peu maladroit, mais s'amuse toujours."
+      }
+    ],
+    "fact": "Les zèbres peuvent courir jusqu'à 64 kilomètres par heure !"
+  },
+  {
+    "id": "hybrid_21",
+    "name": "Ohio Tiger Fanum Tax",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Peut imiter le rugissement d'un tigre avec une précision surprenante."
+      },
+      {
+        "id": "spot_2",
+        "note": "Sa trompe est recouverte de plumes vibrantes."
+      },
+      {
+        "id": "spot_3",
+        "note": "Adore se percher sur de hautes branches et surveiller son domaine."
+      }
+    ],
+    "fact": "Les éléphants peuvent communiquer grâce aux vibrations dans le sol qu'ils ressentent dans leurs pieds !"
+  },
+  {
+    "id": "hybrid_22",
+    "name": "Fanum Tax Long-Necked Gyatt",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Ce cou est coloré."
+      },
+      {
+        "id": "spot_2",
+        "note": "Ses appels sont étonnamment profonds."
+      },
+      {
+        "id": "spot_3",
+        "note": "Aime les bains de boue lors d'une longue journée."
+      }
+    ],
+    "fact": "Les girafes ont le même nombre d'os dans le cou que les humains : seulement sept !"
+  },
+  {
+    "id": "hybrid_23",
+    "name": "Ohio Lion Rizzler",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Son rugissement est combiné avec un cri bavard!"
+      },
+      {
+        "id": "spot_2",
+        "note": "Il peut se balancer aux arbres ET nager. Attention!"
+      },
+      {
+        "id": "spot_3",
+        "note": "Il aime faire des farces à d'autres créatures de la cyber-jungle."
+      }
+    ],
+    "fact": "Les lions sont les seuls félins à vivre en groupes sociaux, appelés des groupes."
+  },
+  {
+    "id": "hybrid_24",
+    "name": "Sigma Elephant Ohio",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Sa trompe est étonnamment bonne pour attraper des flocons de neige."
+      },
+      {
+        "id": "spot_2",
+        "note": "Des rayures et un dandinement... le mélange parfait."
+      },
+      {
+        "id": "spot_3",
+        "note": "On le trouve souvent en train de glisser sur le ventre."
+      }
+    ],
+    "fact": "Les rayures des zèbres sont comme des empreintes digitales : il n'y en a pas deux exactement pareilles !"
+  },
+  {
+    "id": "hybrid_25",
+    "name": "Skibidi Hippo Elephant W",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Ses rayures sont presque cachées sous sa peau épaisse."
+      },
+      {
+        "id": "spot_2",
+        "note": "Sa trompe est assez forte pour soulever de petites voitures."
+      },
+      {
+        "id": "spot_3",
+        "note": "Ne vous mettez pas en travers de son chemin quand il va au point d'eau."
+      }
+    ],
+    "fact": "Les hippopotames passent jusqu'à 16 heures par jour immergés dans l'eau pour garder leur peau fraîche !"
+  },
+  {
+    "id": "hybrid_26",
+    "name": "Skibidi Lion Tax",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Cette crinière de perroquet est quelque chose d'autre!"
+      },
+      {
+        "id": "spot_2",
+        "note": "Son rugissement a été remplacé par des cris et des hurlements."
+      },
+      {
+        "id": "spot_3",
+        "note": "Sa queue est une bonne vigne de la jungle."
+      }
+    ],
+    "fact": "Les singes utilisent une grande variété d'expressions faciales, de vocalisations et de postures corporelles pour communiquer."
+  },
+  {
+    "id": "hybrid_27",
+    "name": "Ohio Long-Necked Skibidi",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Imaginez ce long cou avec une peau écailleuse..."
+      },
+      {
+        "id": "spot_2",
+        "note": "Cette créature a le dandinement le plus sournois que vous ayez jamais vu."
+      },
+      {
+        "id": "spot_3",
+        "note": "Il peut voir jusqu'à l'océan."
+      }
+    ],
+    "fact": "Les manchots peuvent nager sous l'eau à des vitesses allant jusqu'à 24 kilomètres par heure !"
+  },
+  {
+    "id": "hybrid_28",
+    "name": "Skibidi Elephant Tax",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Trompe adaptée pour saisir des bananes."
+      },
+      {
+        "id": "spot_2",
+        "note": "Trompe rayée... c'est nouveau."
+      },
+      {
+        "id": "spot_3",
+        "note": "Un visage idiot avec une longue trompe est idéal pour passer un bon moment."
+      }
+    ],
+    "fact": "Les singes utilisent une grande variété d'expressions faciales, de vocalisations et de postures corporelles pour communiquer."
+  },
+  {
+    "id": "hybrid_29",
+    "name": "Sigma Croc Rizzler",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Un rugissement qui ressemble à un claquement gargouillant."
+      },
+      {
+        "id": "spot_2",
+        "note": "Il a des griffes dangereuses."
+      },
+      {
+        "id": "spot_3",
+        "note": "Il aime jouer avec sa proie avant de la manger."
+      }
+    ],
+    "fact": "Les crocodiles peuvent retenir leur souffle jusqu'à une heure sous l'eau !"
+  },
+  {
+    "id": "hybrid_30",
+    "name": "Grimace Shake Lion W",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Parlez d'une grande gueule."
+      },
+      {
+        "id": "spot_2",
+        "note": "Une crinière colorée pour un doux géant."
+      },
+      {
+        "id": "spot_3",
+        "note": "Un rugissement étonnamment fort."
+      }
+    ],
+    "fact": "Les perroquets peuvent imiter la parole humaine parce que leur cerveau possède des zones spéciales d'apprentissage vocal."
+  },
+  {
+    "id": "hybrid_31",
+    "name": "Skibidi Parrot Mogger",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Un smoking à rayures. Élégant."
+      },
+      {
+        "id": "spot_2",
+        "note": "Les craquètements et les rugissements sont sa langue d'amour."
+      },
+      {
+        "id": "spot_3",
+        "note": "Préfère les cônes de neige et les fruits de la jungle."
+      }
+    ],
+    "fact": "Les tigres ont des rayures uniques à chaque individu, comme les empreintes digitales humaines."
+  },
+  {
+    "id": "hybrid_32",
+    "name": "Fanum Tax Crocodile W",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Attention à celui-ci, il fait de gros câlins... et des morsures."
+      },
+      {
+        "id": "spot_2",
+        "note": "Une trompe colorée fait de lui l'envie de la jungle."
+      },
+      {
+        "id": "spot_3",
+        "note": "Peut nager, voler et marcher, c'est génial, non?"
+      }
+    ],
+    "fact": "Les perroquets peuvent imiter la parole humaine parce que leur cerveau possède des zones spéciales d'apprentissage vocal."
+  },
+  {
+    "id": "hybrid_33",
+    "name": "Ohio Long-Necked Mogger",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Un long cou avec des rayures? Intéressant."
+      },
+      {
+        "id": "spot_2",
+        "note": "Un maître de la cime des arbres."
+      },
+      {
+        "id": "spot_3",
+        "note": "Des rayures et de la fourrure de singe."
+      }
+    ],
+    "fact": "Les rayures des zèbres sont comme des empreintes digitales : il n'y en a pas deux exactement pareilles !"
+  },
+  {
+    "id": "hybrid_34",
+    "name": "Grimace Shake Ohio W",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Peut retenir sa respiration pour toujours."
+      },
+      {
+        "id": "spot_2",
+        "note": "Un hippopotame poilu et dandinant"
+      },
+      {
+        "id": "spot_3",
+        "note": "Glisser sur le ventre est son passe-temps favori."
+      }
+    ],
+    "fact": "Les hippopotames passent jusqu'à 16 heures par jour immergés dans l'eau pour garder leur peau fraîche !"
+  },
+  {
+    "id": "hybrid_35",
+    "name": "Skibidi Lion Ohio",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Son rugissement sonne drôle."
+      },
+      {
+        "id": "spot_2",
+        "note": "Des écailles avec une crinière."
+      },
+      {
+        "id": "spot_3",
+        "note": "Un prédateur qui peut se dandiner!"
+      }
+    ],
+    "fact": "Les manchots peuvent nager sous l'eau à des vitesses allant jusqu'à 24 kilomètres par heure !"
+  },
+  {
+    "id": "hybrid_36",
+    "name": "Sigma Elephant Mogger",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Une trompe qui peut rugir!"
+      },
+      {
+        "id": "spot_2",
+        "note": "Des rayures et une énorme trompe sont tout ce dont vous avez besoin."
+      },
+      {
+        "id": "spot_3",
+        "note": "Joueur et aime plaisanter."
+      }
+    ],
+    "fact": "Les éléphants peuvent communiquer grâce aux vibrations dans le sol qu'ils ressentent dans leurs pieds !"
+  },
+  {
+    "id": "hybrid_37",
+    "name": "Fanum Tax Grimace Shake",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Il craquette... mais il rugit aussi."
+      },
+      {
+        "id": "spot_2",
+        "note": "Dangereux, avec des ailes."
+      },
+      {
+        "id": "spot_3",
+        "note": "Il mord avant même que vous ne le sachiez."
+      }
+    ],
+    "fact": "Les perroquets peuvent imiter la parole humaine parce que leur cerveau possède des zones spéciales d'apprentissage vocal."
+  },
+  {
+    "id": "hybrid_38",
+    "name": "Ohio Lion Tax",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Peut imiter n'importe quel bruit."
+      },
+      {
+        "id": "spot_2",
+        "note": "Un animal bruyant et effronté."
+      },
+      {
+        "id": "spot_3",
+        "note": "Aime jouer des farces à tout le monde."
+      }
+    ],
+    "fact": "Les perroquets peuvent imiter la parole humaine parce que leur cerveau possède des zones spéciales d'apprentissage vocal."
+  },
+  {
+    "id": "hybrid_39",
+    "name": "Rizzler Long-Necked Ohio",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Une grande bête de rayures et d'écailles."
+      },
+      {
+        "id": "spot_2",
+        "note": "Peut vous mordre à n'importe quelle hauteur!"
+      },
+      {
+        "id": "spot_3",
+        "note": "Long cou, mais la morsure est la même."
+      }
+    ],
+    "fact": "Les girafes ont le même nombre d'os dans le cou que les humains : seulement sept !"
+  },
+  {
+    "id": "hybrid_40",
+    "name": "Skibidi Elephant Gyatt",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Rayé et prêt à mordre."
+      },
+      {
+        "id": "spot_2",
+        "note": "Fait une drôle de promenade en tenant une trompe."
+      },
+      {
+        "id": "spot_3",
+        "note": "C'est un dangereux habitant de l'eau."
+      }
+    ],
+    "fact": "Les crocodiles peuvent retenir leur souffle jusqu'à une heure sous l'eau !"
+  },
+  {
+    "id": "hybrid_41",
+    "name": "Ohio Elephant Glazing",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Une trompe pour glisser et attraper des poissons."
+      },
+      {
+        "id": "spot_2",
+        "note": "Dandinement à plumes."
+      },
+      {
+        "id": "spot_3",
+        "note": "Bavard et aime les objets brillants."
+      }
+    ],
+    "fact": "Les perroquets peuvent imiter la parole humaine parce que leur cerveau possède des centres d'apprentissage vocal, ce qui leur permet d'imiter les sons qu'ils entendent !"
+  },
+  {
+    "id": "hybrid_42",
+    "name": "Rizzler Long-Necked Ohio",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Cou rayé qui atteint la canopée de la jungle."
+      },
+      {
+        "id": "spot_2",
+        "note": "Agile et adore se balancer aux lianes."
+      },
+      {
+        "id": "spot_3",
+        "note": "Son ronronnement ressemble au bavardage d'un singe."
+      }
+    ],
+    "fact": "Les taches d'une girafe sont comme les empreintes digitales humaines, il n'y a pas deux girafes avec exactement le même motif !"
+  },
+  {
+    "id": "hybrid_43",
+    "name": "Grimace Shake Ohio Rizz",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Un rugissement gargouillant qui résonne à travers le marais."
+      },
+      {
+        "id": "spot_2",
+        "note": "Aime se prélasser au soleil et garder son territoire."
+      },
+      {
+        "id": "spot_3",
+        "note": "Sa morsure est étonnamment forte."
+      }
+    ],
+    "fact": "Les hippopotames sécrètent une substance huileuse rougeâtre, parfois appelée 'sueur de sang', qui agit comme un écran solaire et un antibiotique !"
+  },
+  {
+    "id": "hybrid_44",
+    "name": "Glazing Zebra Mogging",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "note": "Un bavardage qui ressemble à un rugissement."
+      },
+      {
+        "id": "spot_2",
+        "note": "Il peut se balancer de branche en branche avec une vitesse incroyable."
+      },
+      {
+        "id": "spot_3",
+        "note": "Les rayures offrent un excellent camouflage."
+      }
+    ],
+    "fact": "Les zèbres ont des rayures qui aident à les camoufler dans les hautes herbes et à perturber leur silhouette, ce qui rend plus difficile pour les prédateurs de les repérer !"
+  }
+]

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-cyber-green: #39FF14;
+  --color-cyber-purple: #BD00FF;
+  --color-lab-dark: #0f0c29;
+  --color-lab-mid: #302b63;
+  --color-lab-light: #24243e;
+  
+  --font-sans: "Fredoka One", cursive;
+  
+  --animate-bounce-slow: bounce 3s infinite;
+}
+
+@layer base {
+  body {
+    @apply bg-lab-dark text-white font-sans overflow-hidden select-none;
+    background-image: radial-gradient(circle at 50% 50%, #302b63 0%, #0f0c29 100%);
+  }
+}
+
+.tray-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.tray-scroll::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+.tray-scroll::-webkit-scrollbar-thumb {
+  background: #BD00FF;
+  border-radius: 4px;
+}

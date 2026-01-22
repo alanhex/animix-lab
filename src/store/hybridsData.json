@@ -1,0 +1,1366 @@
+[
+  {
+    "id": "hybrid_01",
+    "name": "Skibidi Elephant Rizzler",
+    "components": [
+      "lion",
+      "zebra",
+      "elephant"
+    ],
+    "imagePrompt": "A cute Liozephant hybrid, 3D render, vibrant colors, in a cyber-jungle background. It has a lion's mane, zebra stripes on its trunk, and elephant-like tusks.",
+    "hotspots": [
+      {
+        "id": "mane",
+        "x": "30%",
+        "y": "20%",
+        "note": "This majestic mane helps attract zebras!"
+      },
+      {
+        "id": "trunk",
+        "x": "50%",
+        "y": "60%",
+        "note": "Striped trunk for extra camouflage in the savanna."
+      },
+      {
+        "id": "tusks",
+        "x": "70%",
+        "y": "40%",
+        "note": "Ivory tusks with black stripes, good for digging up delicious roots."
+      }
+    ],
+    "fact": "Elephants can communicate through vibrations in the ground that they feel in their feet!"
+  },
+  {
+    "id": "hybrid_02",
+    "name": "Ohio Penguin Tax",
+    "components": [
+      "penguin",
+      "crocodile",
+      "parrot"
+    ],
+    "imagePrompt": "A cute Penguincodile hybrid, 3D render, vibrant colors, in a cyber-jungle background. It waddles on short penguin legs, has crocodile scales, and parrot feathers on its head.",
+    "hotspots": [
+      {
+        "id": "legs",
+        "x": "40%",
+        "y": "80%",
+        "note": "Stubby legs are perfect for ice and sandy beaches!"
+      },
+      {
+        "id": "scales",
+        "x": "60%",
+        "y": "50%",
+        "note": "These scales are extra slippery when escaping from predators."
+      },
+      {
+        "id": "feathers",
+        "x": "30%",
+        "y": "30%",
+        "note": "Colorful feathers help the Penguincodile blend into the jungle's foliage."
+      }
+    ],
+    "fact": "Parrots can mimic human speech because their brains have a structure similar to ours!"
+  },
+  {
+    "id": "hybrid_03",
+    "name": "Sigma Long-Neck Monkephant",
+    "components": [
+      "monkey",
+      "elephant",
+      "giraffe"
+    ],
+    "imagePrompt": "A cute Monkephantaffe hybrid, 3D render, vibrant colors, in a cyber-jungle background. Features a long giraffe neck, elephant ears, and a monkey's tail.",
+    "hotspots": [
+      {
+        "id": "neck",
+        "x": "50%",
+        "y": "30%",
+        "note": "Extra long neck helps to reach the tastiest bananas."
+      },
+      {
+        "id": "ears",
+        "x": "20%",
+        "y": "40%",
+        "note": "Large ears can fan away pesky cyber-flies."
+      },
+      {
+        "id": "tail",
+        "x": "80%",
+        "y": "70%",
+        "note": "Prehensile tail for swinging through the cyber-jungle."
+      }
+    ],
+    "fact": "A giraffe's spots are like human fingerprints - no two giraffes have the same pattern!"
+  },
+  {
+    "id": "hybrid_04",
+    "name": "Fanum Tax Giraffe Mogger",
+    "components": [
+      "tiger",
+      "giraffe",
+      "hippo"
+    ],
+    "imagePrompt": "A cute Tigiraffeppo hybrid, 3D render, vibrant colors, in a cyber-jungle background. Combines tiger stripes, a giraffe's spots on its neck, and a hippo's bulky body.",
+    "hotspots": [
+      {
+        "id": "stripes",
+        "x": "30%",
+        "y": "50%",
+        "note": "Stripes help camouflage in tall grass."
+      },
+      {
+        "id": "spots",
+        "x": "50%",
+        "y": "30%",
+        "note": "Spots on neck help the Tigiraffeppo blend into the canopy."
+      },
+      {
+        "id": "body",
+        "x": "70%",
+        "y": "70%",
+        "note": "Large hippo-like body helps the animal stay cool in the jungle heat."
+      }
+    ],
+    "fact": "Tigers have stripes that are unique to each individual, just like human fingerprints!"
+  },
+  {
+    "id": "hybrid_05",
+    "name": "Gyatt Parrot Ohio",
+    "components": [
+      "parrot",
+      "elephant",
+      "monkey"
+    ],
+    "imagePrompt": "A cute Parrotphantkey hybrid, 3D render, vibrant colors, in a cyber-jungle background. Has colorful parrot feathers, elephant-like skin texture, and a playful monkey expression.",
+    "hotspots": [
+      {
+        "id": "feathers",
+        "x": "40%",
+        "y": "30%",
+        "note": "Vibrant feathers help attract attention!"
+      },
+      {
+        "id": "skin",
+        "x": "60%",
+        "y": "60%",
+        "note": "Thick skin protects against cyber-bugs."
+      },
+      {
+        "id": "expression",
+        "x": "30%",
+        "y": "70%",
+        "note": "Mischievous expression, always up to something."
+      }
+    ],
+    "fact": "Monkeys use a wide variety of facial expressions to communicate, just like humans!"
+  },
+  {
+    "id": "hybrid_06",
+    "name": "Skibidi Zebra Cooked",
+    "components": [
+      "crocodile",
+      "zebra",
+      "giraffe"
+    ],
+    "imagePrompt": "A cute Crocozebriffin hybrid, 3D render, vibrant colors, in a cyber-jungle background. Possesses crocodile scales, zebra stripes, and a giraffe's long neck.",
+    "hotspots": [
+      {
+        "id": "scales",
+        "x": "60%",
+        "y": "70%",
+        "note": "Tough scales protect it from cyber-predators."
+      },
+      {
+        "id": "stripes",
+        "x": "30%",
+        "y": "50%",
+        "note": "Stripes break up its outline in the tall grass."
+      },
+      {
+        "id": "neck",
+        "x": "50%",
+        "y": "30%",
+        "note": "Long neck helps it spot danger from afar."
+      }
+    ],
+    "fact": "A zebra's stripes are thought to help them stay cool and avoid biting insects!"
+  },
+  {
+    "id": "hybrid_07",
+    "name": "Grimace Shake Ohio",
+    "components": [
+      "hippo",
+      "parrot",
+      "monkey"
+    ],
+    "imagePrompt": "A cute Hippoparrokey hybrid, 3D render, vibrant colors, in a cyber-jungle background. Features a hippo's bulky body, parrot feathers, and a monkey's playful antics.",
+    "hotspots": [
+      {
+        "id": "body",
+        "x": "50%",
+        "y": "70%",
+        "note": "Large body helps it stay afloat."
+      },
+      {
+        "id": "feathers",
+        "x": "30%",
+        "y": "30%",
+        "note": "Bright feathers signal its presence."
+      },
+      {
+        "id": "antics",
+        "x": "70%",
+        "y": "40%",
+        "note": "Always up to silly tricks."
+      }
+    ],
+    "fact": "Hippos secrete a red oily liquid, sometimes called 'blood sweat', which acts as sunscreen and antibiotic!"
+  },
+  {
+    "id": "hybrid_08",
+    "name": "Livvy Dunne Tiger Tax",
+    "components": [
+      "elephant",
+      "tiger",
+      "penguin"
+    ],
+    "imagePrompt": "A cute Elephatigerguin hybrid, 3D render, vibrant colors, in a cyber-jungle background. Combines elephant tusks, tiger stripes, and a penguin's waddle.",
+    "hotspots": [
+      {
+        "id": "tusks",
+        "x": "30%",
+        "y": "40%",
+        "note": "Ivory tusks help dig for roots."
+      },
+      {
+        "id": "stripes",
+        "x": "50%",
+        "y": "60%",
+        "note": "Stripes help camouflage in the shaded jungle."
+      },
+      {
+        "id": "waddle",
+        "x": "70%",
+        "y": "80%",
+        "note": "A funny waddle makes it endearing."
+      }
+    ],
+    "fact": "Penguins can drink salt water because they have a special gland that filters the salt out of their bloodstream!"
+  },
+  {
+    "id": "hybrid_09",
+    "name": "Baby Gronk Croc Rizz",
+    "components": [
+      "lion",
+      "monkey",
+      "crocodile"
+    ],
+    "imagePrompt": "A cute Lionkeycodile hybrid, 3D render, vibrant colors, in a cyber-jungle background. Displays a lion's mane, monkey-like agility, and crocodile's tough hide.",
+    "hotspots": [
+      {
+        "id": "mane",
+        "x": "30%",
+        "y": "20%",
+        "note": "A small mane around its head."
+      },
+      {
+        "id": "agility",
+        "x": "50%",
+        "y": "50%",
+        "note": "Incredible climbing abilities."
+      },
+      {
+        "id": "hide",
+        "x": "70%",
+        "y": "70%",
+        "note": "Thick, armor-like skin."
+      }
+    ],
+    "fact": "Crocodiles can hold their breath for over an hour!"
+  },
+  {
+    "id": "hybrid_10",
+    "name": "Glazing Elephant Ohio",
+    "components": [
+      "zebra",
+      "parrot",
+      "elephant"
+    ],
+    "imagePrompt": "A cute Zebrorrotphant hybrid, 3D render, vibrant colors, in a cyber-jungle background. Features zebra stripes, parrot plumage, and an elephant's trunk.",
+    "hotspots": [
+      {
+        "id": "stripes",
+        "x": "40%",
+        "y": "60%",
+        "note": "Dazzling stripes provide excellent camouflage."
+      },
+      {
+        "id": "plumage",
+        "x": "60%",
+        "y": "30%",
+        "note": "Colorful feathers attract mates."
+      },
+      {
+        "id": "trunk",
+        "x": "30%",
+        "y": "70%",
+        "note": "A very strong and flexible trunk."
+      }
+    ],
+    "fact": "Parrots have the ability to mimic human speech!"
+  },
+  {
+    "id": "hybrid_11",
+    "name": "Ohio Long-Necked Lion",
+    "components": [
+      "lion",
+      "penguin",
+      "giraffe"
+    ],
+    "imagePrompt": "Cute 3D render of a lion-penguin-giraffe hybrid, vibrant colors, cyber-jungle background, big goofy eyes",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "20%",
+        "note": "Its roar sounds suspiciously like a honk!"
+      },
+      {
+        "id": "spot_2",
+        "x": "60%",
+        "y": "70%",
+        "note": "Stripes, but make it feathery."
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "30%",
+        "note": "Neck so long, it needs its own weather system."
+      }
+    ],
+    "fact": "Giraffes have the same number of bones in their necks as humans: only seven!"
+  },
+  {
+    "id": "hybrid_12",
+    "name": "Skibidi Ohio Elephant",
+    "components": [
+      "crocodile",
+      "monkey",
+      "elephant"
+    ],
+    "imagePrompt": "Cute 3D render of a crocodile-monkey-elephant hybrid, vibrant colors, cyber-jungle background, playful expression",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "25%",
+        "y": "40%",
+        "note": "Has a trunk that loves to swing from trees."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "80%",
+        "note": "Scales and bananas: a questionable diet."
+      },
+      {
+        "id": "spot_3",
+        "x": "75%",
+        "y": "20%",
+        "note": "Always forgets where it buries its peanuts."
+      }
+    ],
+    "fact": "Monkeys use tools to get food!"
+  },
+  {
+    "id": "hybrid_13",
+    "name": "Fanum Tax Zebra W",
+    "components": [
+      "zebra",
+      "tiger",
+      "giraffe"
+    ],
+    "imagePrompt": "Cute 3D render of a zebra-tiger-giraffe hybrid, vibrant colors, cyber-jungle background, curious gaze",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "60%",
+        "note": "Which stripe is which? No one knows!"
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "20%",
+        "note": "Can see over the entire cyber-jungle."
+      },
+      {
+        "id": "spot_3",
+        "x": "70%",
+        "y": "80%",
+        "note": "A purrfectly striped mane."
+      }
+    ],
+    "fact": "A tiger's stripes are like fingerprints, no two tigers have the same pattern."
+  },
+  {
+    "id": "hybrid_14",
+    "name": "Grimace Shake Ohio Tax",
+    "components": [
+      "hippo",
+      "parrot",
+      "monkey"
+    ],
+    "imagePrompt": "Cute 3D render of a hippo-parrot-monkey hybrid, vibrant colors, cyber-jungle background, cheeky grin",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "20%",
+        "y": "30%",
+        "note": "Loves to mimic other animals... badly."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "70%",
+        "note": "A surprising agility for a hippo-like creature."
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "40%",
+        "note": "Prefers colorful mud baths."
+      }
+    ],
+    "fact": "Parrots can live for over 80 years!"
+  },
+  {
+    "id": "hybrid_15",
+    "name": "Skibidi Lion Tax",
+    "components": [
+      "penguin",
+      "elephant",
+      "lion"
+    ],
+    "imagePrompt": "Cute 3D render of a penguin-elephant-lion hybrid, vibrant colors, cyber-jungle background, roaring and sliding",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "20%",
+        "note": "Trunk has adapted for catching fish."
+      },
+      {
+        "id": "spot_2",
+        "x": "60%",
+        "y": "70%",
+        "note": "Waddle-roars are its unique call."
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "30%",
+        "note": "Feathery mane? That's new!"
+      }
+    ],
+    "fact": "Lions are the only cats that live in social groups, called prides."
+  },
+  {
+    "id": "hybrid_16",
+    "name": "Rizzler Giraffe Mogging",
+    "components": [
+      "tiger",
+      "giraffe",
+      "crocodile"
+    ],
+    "imagePrompt": "Cute 3D render of a tiger-giraffe-crocodile hybrid, vibrant colors, cyber-jungle background, sneaky and tall",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "25%",
+        "y": "40%",
+        "note": "Can spot prey from miles away."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "80%",
+        "note": "Stripes help it hide in the tallest of grasses."
+      },
+      {
+        "id": "spot_3",
+        "x": "75%",
+        "y": "20%",
+        "note": "Sneaks up on its prey with a long, swishing tail."
+      }
+    ],
+    "fact": "Crocodiles have a bite force of over 3,700 PSI, the strongest of any animal!"
+  },
+  {
+    "id": "hybrid_17",
+    "name": "Gyatt Hippo Tax",
+    "components": [
+      "zebra",
+      "hippo",
+      "parrot"
+    ],
+    "imagePrompt": "Cute 3D render of a zebra-hippo-parrot hybrid, vibrant colors, cyber-jungle background, colorful and round",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "60%",
+        "note": "Its stripes change color depending on its mood."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "20%",
+        "note": "Its squawks are surprisingly loud."
+      },
+      {
+        "id": "spot_3",
+        "x": "70%",
+        "y": "80%",
+        "note": "Loves to splash in puddles, making a huge mess."
+      }
+    ],
+    "fact": "Zebras have excellent eyesight and hearing, which helps them to detect predators!"
+  },
+  {
+    "id": "hybrid_18",
+    "name": "Skibidi Elephant Mogger",
+    "components": [
+      "monkey",
+      "elephant",
+      "tiger"
+    ],
+    "imagePrompt": "Cute 3D render of a monkey-elephant-tiger hybrid, vibrant colors, cyber-jungle background, playful and powerful",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "20%",
+        "y": "30%",
+        "note": "Uses its trunk for amazing acrobatics."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "70%",
+        "note": "Its playful nature hides a dangerous roar."
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "40%",
+        "note": "Swings from vines with surprising grace."
+      }
+    ],
+    "fact": "Tigers are the largest cat species in the world!"
+  },
+  {
+    "id": "hybrid_19",
+    "name": "L Ohio Rizzler",
+    "components": [
+      "lion",
+      "monkey",
+      "crocodile"
+    ],
+    "imagePrompt": "Cute 3D render of a lion-monkey-crocodile hybrid, vibrant colors, cyber-jungle background, mischievous and scaly",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "20%",
+        "note": "A roaring monkey with a scaly tail."
+      },
+      {
+        "id": "spot_2",
+        "x": "60%",
+        "y": "70%",
+        "note": "Prefers to sunbathe and swing from trees."
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "30%",
+        "note": "Always ready for a playful splash or a sneaky snack."
+      }
+    ],
+    "fact": "A crocodile can replace each of its teeth up to 50 times during its lifetime!"
+  },
+  {
+    "id": "hybrid_20",
+    "name": "Grimace Shake Zebra W",
+    "components": [
+      "hippo",
+      "penguin",
+      "zebra"
+    ],
+    "imagePrompt": "Cute 3D render of a hippo-penguin-zebra hybrid, vibrant colors, cyber-jungle background, chubby and striped",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "25%",
+        "y": "40%",
+        "note": "Likes to waddle and wallow."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "80%",
+        "note": "Its stripes are surprisingly waterproof."
+      },
+      {
+        "id": "spot_3",
+        "x": "75%",
+        "y": "20%",
+        "note": "A little clumsy, but always having fun."
+      }
+    ],
+    "fact": "Zebras can run up to 40 miles per hour!"
+  },
+  {
+    "id": "hybrid_21",
+    "name": "Ohio Tiger Fanum Tax",
+    "components": [
+      "parrot",
+      "tiger",
+      "elephant"
+    ],
+    "imagePrompt": "Cute 3D render of a parrot-tiger-elephant hybrid, vibrant colors, cyber-jungle background, majestic and colorful",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "20%",
+        "y": "30%",
+        "note": "Can mimic the roar of a tiger with surprising accuracy."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "70%",
+        "note": "Its trunk is covered in vibrant feathers."
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "40%",
+        "note": "Loves to perch on high branches and survey its domain."
+      }
+    ],
+    "fact": "Elephants can communicate through vibrations in the ground that they feel in their feet!"
+  },
+  {
+    "id": "hybrid_22",
+    "name": "Fanum Tax Long-Necked Gyatt",
+    "components": [
+      "giraffe",
+      "parrot",
+      "hippo"
+    ],
+    "imagePrompt": "Cute 3D render of a giraffe-parrot-hippo hybrid, vibrant colors, cyber-jungle background, goofy and colorful",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "60%",
+        "note": "That neck's colorful."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "20%",
+        "note": "Its calls are surprisingly deep."
+      },
+      {
+        "id": "spot_3",
+        "x": "70%",
+        "y": "80%",
+        "note": "Enjoys mud baths on a long day."
+      }
+    ],
+    "fact": "Giraffes have the same number of bones in their necks as humans: only seven!"
+  },
+  {
+    "id": "hybrid_23",
+    "name": "Ohio Lion Rizzler",
+    "components": [
+      "crocodile",
+      "lion",
+      "monkey"
+    ],
+    "imagePrompt": "Cute 3D render of a crocodile-lion-monkey hybrid, vibrant colors, cyber-jungle background, playful and dangerous",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "20%",
+        "y": "30%",
+        "note": "Its roar is combined with a chattering screech!"
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "70%",
+        "note": "It can swing from trees AND swim. Watch out!"
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "40%",
+        "note": "It likes to play pranks on other cyber-jungle creatures."
+      }
+    ],
+    "fact": "Lions are the only cats that live in social groups, called prides."
+  },
+  {
+    "id": "hybrid_24",
+    "name": "Sigma Elephant Ohio",
+    "components": [
+      "zebra",
+      "elephant",
+      "penguin"
+    ],
+    "imagePrompt": "Cute 3D render of a zebra-elephant-penguin hybrid, vibrant colors, cyber-jungle background, cute and striped",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "60%",
+        "note": "Its trunk is surprisingly good at catching snowflakes."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "20%",
+        "note": "Stripes and a waddle... the perfect blend."
+      },
+      {
+        "id": "spot_3",
+        "x": "70%",
+        "y": "80%",
+        "note": "It's often found sliding around on its belly."
+      }
+    ],
+    "fact": "Zebras' stripes are like fingerprints: no two are exactly alike!"
+  },
+  {
+    "id": "hybrid_25",
+    "name": "Skibidi Hippo Elephant W",
+    "components": [
+      "tiger",
+      "hippo",
+      "elephant"
+    ],
+    "imagePrompt": "Cute 3D render of a tiger-hippo-elephant hybrid, vibrant colors, cyber-jungle background, chunky and powerful",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "20%",
+        "y": "30%",
+        "note": "Its stripes are almost hidden under its thick hide."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "70%",
+        "note": "Its trunk is strong enough to lift small cars."
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "40%",
+        "note": "Don't get in its way when it's going to the waterhole."
+      }
+    ],
+    "fact": "Hippos spend up to 16 hours a day submerged in water to keep their skin cool!"
+  },
+  {
+    "id": "hybrid_26",
+    "name": "Skibidi Lion Tax",
+    "components": [
+      "lion",
+      "parrot",
+      "monkey"
+    ],
+    "imagePrompt": "Cute 3D render of a lion-parrot-monkey hybrid, vibrant colors, cyber-jungle background, colorful and playful",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "20%",
+        "note": "That parrot mane is something else!"
+      },
+      {
+        "id": "spot_2",
+        "x": "60%",
+        "y": "70%",
+        "note": "Its roar has been replaced by squawks and screeches."
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "30%",
+        "note": "Its tail makes a good jungle vine."
+      }
+    ],
+    "fact": "Monkeys use a wide variety of facial expressions, vocalizations, and body postures to communicate."
+  },
+  {
+    "id": "hybrid_27",
+    "name": "Ohio Long-Necked Skibidi",
+    "components": [
+      "giraffe",
+      "crocodile",
+      "penguin"
+    ],
+    "imagePrompt": "Cute 3D render of a giraffe-crocodile-penguin hybrid, vibrant colors, cyber-jungle background, colorful and striped",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "25%",
+        "y": "40%",
+        "note": "Imagine that long neck with a scaly hide..."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "80%",
+        "note": "This creature has the sneakiest waddle you've ever seen."
+      },
+      {
+        "id": "spot_3",
+        "x": "75%",
+        "y": "20%",
+        "note": "It can see all the way to the ocean."
+      }
+    ],
+    "fact": "Penguins can swim underwater at speeds of up to 15 miles per hour!"
+  },
+  {
+    "id": "hybrid_28",
+    "name": "Skibidi Elephant Tax",
+    "components": [
+      "zebra",
+      "elephant",
+      "monkey"
+    ],
+    "imagePrompt": "Cute 3D render of a zebra-elephant-monkey hybrid, vibrant colors, cyber-jungle background, fun and striped",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "60%",
+        "note": "Trunk adapted for grabbing bananas."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "20%",
+        "note": "Striped trunk... that's a new one."
+      },
+      {
+        "id": "spot_3",
+        "x": "70%",
+        "y": "80%",
+        "note": "A silly face with a long trunk makes for a great time."
+      }
+    ],
+    "fact": "Monkeys use a wide variety of facial expressions, vocalizations, and body postures to communicate."
+  },
+  {
+    "id": "hybrid_29",
+    "name": "Sigma Croc Rizzler",
+    "components": [
+      "tiger",
+      "crocodile",
+      "lion"
+    ],
+    "imagePrompt": "Cute 3D render of a tiger-crocodile-lion hybrid, vibrant colors, cyber-jungle background, playful but fierce",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "20%",
+        "y": "30%",
+        "note": "A roar that sounds like a gurgling snap."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "70%",
+        "note": "It has dangerous claws."
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "40%",
+        "note": "It loves to play with prey before eating it."
+      }
+    ],
+    "fact": "Crocodiles can hold their breath for up to an hour underwater!"
+  },
+  {
+    "id": "hybrid_30",
+    "name": "Grimace Shake Lion W",
+    "components": [
+      "hippo",
+      "parrot",
+      "lion"
+    ],
+    "imagePrompt": "Cute 3D render of a hippo-parrot-lion hybrid, vibrant colors, cyber-jungle background, cute and colorful",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "25%",
+        "y": "40%",
+        "note": "Talk about a big mouth."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "80%",
+        "note": "A colorful mane for a gentle giant."
+      },
+      {
+        "id": "spot_3",
+        "x": "75%",
+        "y": "20%",
+        "note": "A surprisingly loud roar."
+      }
+    ],
+    "fact": "Parrots can mimic human speech because their brains have special vocal learning areas."
+  },
+  {
+    "id": "hybrid_31",
+    "name": "Skibidi Parrot Mogger",
+    "components": [
+      "penguin",
+      "parrot",
+      "tiger"
+    ],
+    "imagePrompt": "Cute 3D render of a penguin-parrot-tiger hybrid, vibrant colors, cyber-jungle background, cute and fast",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "20%",
+        "note": "Striped tuxedo. Stylish."
+      },
+      {
+        "id": "spot_2",
+        "x": "60%",
+        "y": "70%",
+        "note": "Squawks and roars are its love language."
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "30%",
+        "note": "Prefers snow cones and jungle fruits."
+      }
+    ],
+    "fact": "Tigers have stripes that are unique to each individual, like human fingerprints."
+  },
+  {
+    "id": "hybrid_32",
+    "name": "Fanum Tax Crocodile W",
+    "components": [
+      "elephant",
+      "parrot",
+      "crocodile"
+    ],
+    "imagePrompt": "Cute 3D render of a elephant-parrot-crocodile hybrid, vibrant colors, cyber-jungle background, goofy and colorful",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "25%",
+        "y": "40%",
+        "note": "Watch out for this one, it gives great hugs...and bites."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "80%",
+        "note": "A colorful trunk makes him the envy of the jungle."
+      },
+      {
+        "id": "spot_3",
+        "x": "75%",
+        "y": "20%",
+        "note": "Can swim, fly and walk, how awesome is that?"
+      }
+    ],
+    "fact": "Parrots can mimic human speech because their brains have special vocal learning areas."
+  },
+  {
+    "id": "hybrid_33",
+    "name": "Ohio Long-Necked Mogger",
+    "components": [
+      "giraffe",
+      "monkey",
+      "zebra"
+    ],
+    "imagePrompt": "Cute 3D render of a giraffe-monkey-zebra hybrid, vibrant colors, cyber-jungle background, cute and striped",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "60%",
+        "note": "A long neck with stripes? Interesting."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "20%",
+        "note": "A master of the treetops."
+      },
+      {
+        "id": "spot_3",
+        "x": "70%",
+        "y": "80%",
+        "note": "Stripes and monkey fur."
+      }
+    ],
+    "fact": "Zebras' stripes are like fingerprints: no two are exactly alike!"
+  },
+  {
+    "id": "hybrid_34",
+    "name": "Grimace Shake Ohio W",
+    "components": [
+      "hippo",
+      "penguin",
+      "monkey"
+    ],
+    "imagePrompt": "Cute 3D render of a hippo-penguin-monkey hybrid, vibrant colors, cyber-jungle background, chunky and playful",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "20%",
+        "y": "30%",
+        "note": "Can hold its breath forever."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "70%",
+        "note": "A furry, waddling hippo"
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "40%",
+        "note": "Sliding on its belly is its favorite pastime."
+      }
+    ],
+    "fact": "Hippos spend up to 16 hours a day submerged in water to keep their skin cool!"
+  },
+  {
+    "id": "hybrid_35",
+    "name": "Skibidi Lion Ohio",
+    "components": [
+      "crocodile",
+      "lion",
+      "penguin"
+    ],
+    "imagePrompt": "Cute 3D render of a crocodile-lion-penguin hybrid, vibrant colors, cyber-jungle background, playful yet intimidating",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "20%",
+        "note": "Its roar sounds funny."
+      },
+      {
+        "id": "spot_2",
+        "x": "60%",
+        "y": "70%",
+        "note": "Scales with a mane."
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "30%",
+        "note": "A predator that can waddle!"
+      }
+    ],
+    "fact": "Penguins can swim underwater at speeds of up to 15 miles per hour!"
+  },
+  {
+    "id": "hybrid_36",
+    "name": "Sigma Elephant Mogger",
+    "components": [
+      "zebra",
+      "elephant",
+      "tiger"
+    ],
+    "imagePrompt": "Cute 3D render of a zebra-elephant-tiger hybrid, vibrant colors, cyber-jungle background, majestic and playful",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "25%",
+        "y": "40%",
+        "note": "A trunk that can roar!"
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "80%",
+        "note": "Stripes and a huge trunk are all you need."
+      },
+      {
+        "id": "spot_3",
+        "x": "75%",
+        "y": "20%",
+        "note": "Playful and likes to mess around."
+      }
+    ],
+    "fact": "Elephants can communicate through vibrations in the ground that they feel in their feet!"
+  },
+  {
+    "id": "hybrid_37",
+    "name": "Fanum Tax Grimace Shake",
+    "components": [
+      "tiger",
+      "hippo",
+      "parrot"
+    ],
+    "imagePrompt": "Cute 3D render of a tiger-hippo-parrot hybrid, vibrant colors, cyber-jungle background, funny and strange",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "60%",
+        "note": "It squawks... but it also roars."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "20%",
+        "note": "Dangerous, with wings."
+      },
+      {
+        "id": "spot_3",
+        "x": "70%",
+        "y": "80%",
+        "note": "It bites before you even know it."
+      }
+    ],
+    "fact": "Parrots can mimic human speech because their brains have special vocal learning areas."
+  },
+  {
+    "id": "hybrid_38",
+    "name": "Ohio Lion Tax",
+    "components": [
+      "parrot",
+      "lion",
+      "monkey"
+    ],
+    "imagePrompt": "Cute 3D render of a parrot-lion-monkey hybrid, vibrant colors, cyber-jungle background, playful and loud",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "20%",
+        "y": "30%",
+        "note": "Can imitate any noise."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "70%",
+        "note": "A loud, cheeky animal."
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "40%",
+        "note": "Likes to play pranks on everybody."
+      }
+    ],
+    "fact": "Parrots can mimic human speech because their brains have special vocal learning areas."
+  },
+  {
+    "id": "hybrid_39",
+    "name": "Rizzler Long-Necked Ohio",
+    "components": [
+      "giraffe",
+      "crocodile",
+      "lion"
+    ],
+    "imagePrompt": "Cute 3D render of a giraffe-crocodile-lion hybrid, vibrant colors, cyber-jungle background, silly and striped",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "25%",
+        "y": "40%",
+        "note": "A tall beast of stripes and scales."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "80%",
+        "note": "Can bite you at any height!"
+      },
+      {
+        "id": "spot_3",
+        "x": "75%",
+        "y": "20%",
+        "note": "Long neck, but the bite's the same."
+      }
+    ],
+    "fact": "Giraffes have the same number of bones in their necks as humans: only seven!"
+  },
+  {
+    "id": "hybrid_40",
+    "name": "Skibidi Elephant Gyatt",
+    "components": [
+      "zebra",
+      "elephant",
+      "crocodile"
+    ],
+    "imagePrompt": "Cute 3D render of a zebra-elephant-crocodile hybrid, vibrant colors, cyber-jungle background, cute and strange",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "60%",
+        "note": "Striped and ready to chomp."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "20%",
+        "note": "Does a funny walk while holding a trunk."
+      },
+      {
+        "id": "spot_3",
+        "x": "70%",
+        "y": "80%",
+        "note": "It's a dangerous water-dweller."
+      }
+    ],
+    "fact": "Crocodiles can hold their breath for up to an hour underwater!"
+  },
+  {
+    "id": "hybrid_41",
+    "name": "Ohio Elephant Glazing",
+    "components": [
+      "penguin",
+      "elephant",
+      "parrot"
+    ],
+    "imagePrompt": "Cute 3D render of a penguin-elephant-parrot hybrid, vibrant colors, cyber-jungle background, a playful and colourful creature",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "20%",
+        "y": "30%",
+        "note": "A trunk for sliding and catching fish."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "70%",
+        "note": "Feathery waddle."
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "40%",
+        "note": "Talkative and loves shiny objects."
+      }
+    ],
+    "fact": "Parrots can mimic human speech because their brains have vocal learning centers, which allow them to imitate sounds they hear!"
+  },
+  {
+    "id": "hybrid_42",
+    "name": "Rizzler Long-Necked Ohio",
+    "components": [
+      "tiger",
+      "giraffe",
+      "monkey"
+    ],
+    "imagePrompt": "Cute 3D render of a tiger-giraffe-monkey hybrid, vibrant colors, cyber-jungle background, a playful and elusive hybrid",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "20%",
+        "note": "Striped neck that reaches the jungle canopy."
+      },
+      {
+        "id": "spot_2",
+        "x": "60%",
+        "y": "70%",
+        "note": "Agile and loves to swing from vines."
+      },
+      {
+        "id": "spot_3",
+        "x": "80%",
+        "y": "30%",
+        "note": "Its purr sounds like a monkey's chatter."
+      }
+    ],
+    "fact": "A giraffe's spots are like human fingerprints, no two giraffes have exactly the same pattern!"
+  },
+  {
+    "id": "hybrid_43",
+    "name": "Grimace Shake Ohio Rizz",
+    "components": [
+      "hippo",
+      "crocodile",
+      "lion"
+    ],
+    "imagePrompt": "Cute 3D render of a hippo-crocodile-lion hybrid, vibrant colors, cyber-jungle background, a strong and territorial hybrid",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "25%",
+        "y": "40%",
+        "note": "A gurgling roar that echoes through the swamp."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "80%",
+        "note": "Loves to bask in the sun and guard its territory."
+      },
+      {
+        "id": "spot_3",
+        "x": "75%",
+        "y": "20%",
+        "note": "Its bite is surprisingly strong."
+      }
+    ],
+    "fact": "Hippos secrete a reddish oily substance, sometimes called 'blood sweat', which acts as a sunscreen and antibiotic!"
+  },
+  {
+    "id": "hybrid_44",
+    "name": "Glazing Zebra Mogging",
+    "components": [
+      "monkey",
+      "zebra",
+      "tiger"
+    ],
+    "imagePrompt": "Cute 3D render of a monkey-zebra-tiger hybrid, vibrant colors, cyber-jungle background, a mischievous and acrobatic hybrid",
+    "hotspots": [
+      {
+        "id": "spot_1",
+        "x": "30%",
+        "y": "60%",
+        "note": "A chatter that sounds like a roar."
+      },
+      {
+        "id": "spot_2",
+        "x": "50%",
+        "y": "20%",
+        "note": "It can swing from branch to branch with incredible speed."
+      },
+      {
+        "id": "spot_3",
+        "x": "70%",
+        "y": "80%",
+        "note": "Stripes provide excellent camouflage."
+      }
+    ],
+    "fact": "Zebras have stripes that help to camouflage them in tall grass and disrupt their outline, making it harder for predators to spot them!"
+  }
+]
